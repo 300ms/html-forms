@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="header">
-            <span class="header-links">
-                <span>Already have an Intuit account?</span><br>
-                <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D34758894225416457621264800979794955614%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1565729615%26ivid%3D024d5df0-3ed3-47c7-b0f7-a500be1696a9#">I forgot My User Id or Password</a>
+            <span class="header-content">
+                <span id="header-text">Already have an Intuit account?</span>
+                <br>
+                <a id="header-link" href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D34758894225416457621264800979794955614%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1565729615%26ivid%3D024d5df0-3ed3-47c7-b0f7-a500be1696a9#">I forgot My User Id or Password</a>
             </span>
             <span class="sign-in">
                 <button type="button" name="sign-in" id="sign-in-button" class="button">
@@ -27,23 +29,24 @@
                 <a id="add-img-3" href="#"></a>
             </div>
             <form class="form" action="#" method="post">
-                <fieldset>
-                    <label for="mail">E-mail Address</label>
-                    <input type="email" name="mail" value="">
-
-                    <label for="phone">Phone Number</label>
-                    <input type="phone" name="phone" value="">
-
-                    <label for="password">Password</label>
-                    <input type="password" name="password" value="">
-
-                    <label for="password-validate">Password Validate</label>
-                    <input type="password" name="password-validate" value="">
-
-                    <button type="submit" name="create-account">
+                <fieldset class="fieldset">
+                    <label class="form-fields" for="mail">E-mail Address</label>
+                    <input class="form-fields" type="email" name="mail" value="">
+                    <br>
+                    <label class="form-fields" for="phone">Phone Number</label>
+                    <input class="form-fields" type="phone" name="phone" value="">
+                    <br>
+                    <label class="form-fields" for="password">Password</label>
+                    <input class="form-fields" type="password" name="password" value="">
+                    <br>
+                    <label class="form-fields" for="password-validate">Password Validate</label>
+                    <input class="form-fields" type="password" name="password-validate" value="">
+                    <br>
+                    <button class="form-fields" type="submit" name="create-account">
                         <span id="create-img"></span>
                         <p>Create Account</p>
                     </button>
+                    <br>
                     <div class="form-end">
                         <p>By clicking Create account, you agree to our
                         <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our
@@ -61,12 +64,12 @@
         </div>
         <div class="footer">
             <div class="footer-1">
-                <pre><a href="http://about.intuit.com/legal/">Legal</a>    <a href="https://security.intuit.com/privacy/">Privacy</a>    <a href="http://security.intuit.com/"Security></a></pre>
+                <pre><a href="http://about.intuit.com/legal/">Legal</a>    <a href="https://security.intuit.com/privacy/">Privacy</a>    <a href="http://security.intuit.com/Security">Security</a></pre>
             </div>
+
+            <div class="footer-2">
                 <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-            <div class="footer-2">
-
             </div>
         </div>
     </body>
