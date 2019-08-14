@@ -17,28 +17,29 @@ body,html{
     height: 10%;
 }
 .header-content{
-    margin: 0 22% 0 78%;
-    /*margin-right: 10%;
-    margin-left: 50%;*/
-    /*padding-right: 20%;*/
-   /* border-style: solid;*/
-    /*right: 8%;*/
-}
-#header-link{
+    margin: 0 30% 0 70%;
     width: 300px;
-    margin: 0 22% 0 78%;
+    display: block;
 }
+
+
+#login-2{
+}
+.sign-in{
+    width: 250px;
+    height: 250px;
+}
+
+/*
 #header-text{
     display: inline;
 }
-.sign-in{
-    margin: 0 22% 0 78%;
-    display: inline;
+*/
+
+.button-img{
+    margin-top: 5%;
 }
-#button-img{
-    display: inline;
-    margin: 0 33% 0 67%;
-}
+
 .form{
     margin-top: 10%;
     width: 100%;
