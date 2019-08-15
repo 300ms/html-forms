@@ -1,4 +1,5 @@
-body,html {
+body,
+html {
     width: 100%;
     height: 100%;
     background-color: #eceef1;
@@ -38,7 +39,7 @@ body,html {
 
 .button-img {
     height: 1em;
-    width: .8em;
+    width: 0.8em;
     margin-top: 2px;
     margin-right: 4px;
     vertical-align: text-top;
