@@ -18,5 +18,5 @@ review:
     # a pull request contains style errors.
     fail_on_comments: false
 linters:
-    stylelint:
-        fixer:true
+    csslint:
+        ignore: 'box-model,ids'
