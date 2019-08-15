@@ -1,17 +1,16 @@
-
-body,html{
+body,html {
     width: 100%;
     height: 100%;
-    background-color: #ECEEF1;
+    background-color: #eceef1;
 }
 
-.body{
+.body {
     width: 100%;
     height: 75%;
     font-family: 'Blinker', sans-serif;
 }
 
-.header{
+.header {
     margin-right: 10%;
     width: 100%;
     height: 10%;
@@ -20,21 +19,19 @@ body,html{
     margin: 0 25% 0 75%;
     width: 300px;
 }
-
-#login-2{
+#login-2 {
  float: left;
-
 }
-.sign-in{
+.sign-in {
     display: inline;
     margin-left: 5px;
 }
-#sign-in-button{
+#sign-in-button {
     height: 34px;
-    background-color: #0077C5;
+    background-color: #0077c5;
     border-radius: 5px;
 }
-.button-img{
+.button-img {
     height: 1em;
     width: .8em;
     margin-top: 2px;
@@ -44,37 +41,36 @@ body,html{
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png);
     background-size: contain;
     background-repeat: no-repeat;
-
 }
-.add-links{
+.add-links {
     margin: 0 55% 0 45%;
 }
-.add-links2{
+.add-links2 {
     margin: 0 63% 0 37%;
 }
-.Color{
+.Color {
 background-color: gray;
 }
-
-
-.form{
+.form {
     margin-top: 0;
     width: 100%;
     height: 80%;
 }
-.fieldset{
+.fieldset {
     position: relative;
     width: 40%;
     left : 30%;
     height: 98%;
     background-color: white;
 }
-
-.form-fields{
+.form-fields {
     display: block;
-    margin:2px auto 2px auto;
+    margin: 2px auto 2px auto;
     text-align: center;
 }
-.footer-1, .footer-2, .form-end, .form-end-2{
-    text-align:center;
+.footer-1,
+.footer-2,
+.form-end,
+.form-end-2 {
+    text-align: center;
 }
