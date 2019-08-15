@@ -16,7 +16,6 @@ module.exports = {
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
-    "block-closing-brace-space-before": "always-single-line",
     "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
@@ -45,7 +44,6 @@ module.exports = {
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-newline-after": "always-multi-line",
-    "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": [ "always", {
       except: [
@@ -65,8 +63,7 @@ module.exports = {
     "function-parentheses-newline-inside": "always-multi-line",
     "function-parentheses-space-inside": "never-single-line",
     "function-whitespace-after": "always",
-    "indentation": 2,
-    "length-zero-no-unit": true,
+    "length-zero-no-unit": "false",
     "max-empty-lines": 1,
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
@@ -82,10 +79,10 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
-    "rule-empty-line-before": [ "always-multi-line", {
+    /*"rule-empty-line-before": [ "always-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"],
-    } ],
+    } ],*/
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
