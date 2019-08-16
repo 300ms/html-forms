@@ -64,7 +64,7 @@ html {
     display: inline-block;
 }
 
-.Color {
+.color {
     background-color: gray;
 }
 
@@ -82,7 +82,7 @@ html {
     background-color: white;
 }
 .form-header{
-    color: #4C4C4C;
+    color: #4c4c4c;
     line-height: 1.1;
     font-size: 24px;
     font-family: 'Noto Sans',sans-serif;
@@ -95,9 +95,8 @@ html {
     display: block;
     margin: 2px auto 2px auto;
     text-align: center;
-    color: #4C4C4C;
+    color: #4c4c4c;
 }
-
 
 a:link,
 a:visited,
@@ -112,7 +111,6 @@ a:hover{
     color: #0014c5;
 }
 
-
 .form-end {
     text-align: center;
     font-style: italic;
@@ -124,8 +122,8 @@ a:hover{
     text-align: center;
     color: #757575;
     font-size: 6px;
-    border-top: 5px solid #ECEEF1;
-    background-color: #ECEEF1;
+    border-top: 5px solid #eceef1;
+    background-color: #eceef1;
 }
 
 .footer-1,
@@ -138,7 +136,7 @@ a:hover{
 p {
     font-family: 'Noto Sans',sans-serif;
     font-size: 14px;
-    color: #4C4C4C;
+    color: #4c4c4c;
 }
 
 input {
