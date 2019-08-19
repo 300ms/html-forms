@@ -31,13 +31,34 @@ html {
     margin-left: 5px;
 }
 
-#sign-in-button {
+button {
     height: 40px;
     width: 80px;
     background-color: #0077c5;
-    border-radius: 5px;
+    border-radius: 4px;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    color: #FFFFFF;
 }
 
+.create{
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    margin-bottom: 35px;
+}
+#create-img{
+    height: 1em;
+    width: 0.8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .button-img {
     height: 1em;
     width: 0.8em;
@@ -48,6 +69,16 @@ html {
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+#password{
+    float: left;
+}
+.password-img{
+    background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
+    position: relative;
+    left: 87%;
+    width: 33px;
+    height: 32px;
 }
 
 .brand-logo {
@@ -70,8 +101,7 @@ html {
 
 .form {
     clear: left;
-    margin-top: 0;
-    width: 100%;
+    margin: auto;
 }
 
 .fieldset {
@@ -80,6 +110,8 @@ html {
     width: 35%;
     height: 100%;
     background-color: white;
+    border: 1px solid #c7c7c7;
+    text-align: left;
 }
 .form-header{
     color: #4c4c4c;
@@ -88,14 +120,13 @@ html {
     font-family: 'Noto Sans',sans-serif;
     font-weight: 400;
     text-align: center;
+    margin: 0;
 }
 .form-fields {
     font-family: 'Noto Sans',sans-serif;
     font-size: 14px;
     display: block;
-    margin: 2px auto 2px auto;
-    text-align: center;
-    color: #4c4c4c;
+    margin: 0;
 }
 
 a:link,
@@ -115,15 +146,18 @@ a:hover{
     text-align: center;
     font-style: italic;
     color: #757575;
-    font-size: 8px;
+    font-size: 14px;
 }
 
 .form-end-2 {
     text-align: center;
     color: #757575;
-    font-size: 6px;
+    font-size: 12px;
     border-top: 5px solid #eceef1;
     background-color: #eceef1;
+    margin: 0 -20px;
+    border:0;
+    padding: 10px;
 }
 
 .footer-1,
@@ -135,14 +169,29 @@ a:hover{
 
 p {
     font-family: 'Noto Sans',sans-serif;
-    font-size: 14px;
     color: #4c4c4c;
+    margin: 0px;
+}
+
+pre {
+    text-align: center;
 }
 
 input {
-    border-radius:5px;
+    border-radius: 3px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    border: 1px solid #C1C5C8;
+    width: 333px;
+    height: 34px;
+    padding: 0;
+    text-align: center;
 }
 
 input:focus{
     outline:none;
+}
+
+label{
+    color: #4c4c4c;
 }
