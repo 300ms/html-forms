@@ -20,7 +20,7 @@ html {
     margin: 0 25% 0 75%;
     width: 300px;
     font-size: 15px;
-    font-style:oblique;
+    font-style:lighter;
 }
 
 #login-2 {
@@ -114,6 +114,8 @@ button {
     background-color: white;
     border: 1px solid #c7c7c7;
     text-align: left;
+    font-weight: lighter;
+    line-height: 1.8;
 }
 .form-header{
     color: #4c4c4c;
