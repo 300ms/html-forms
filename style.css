@@ -19,6 +19,8 @@ html {
 .header-content {
     margin: 0 25% 0 75%;
     width: 300px;
+    font-size: 15px;
+    font-style:oblique;
 }
 
 #login-2 {
@@ -107,7 +109,7 @@ button {
 .fieldset {
     margin: auto;
     padding: 20px 20px 0 20px;
-    width: 35%;
+    width: 33%;
     height: 100%;
     background-color: white;
     border: 1px solid #c7c7c7;
@@ -116,7 +118,7 @@ button {
 .form-header{
     color: #4c4c4c;
     line-height: 1.1;
-    font-size: 24px;
+    font-size: 23px;
     font-family: 'Noto Sans',sans-serif;
     font-weight: 400;
     text-align: center;
@@ -133,7 +135,6 @@ a:link,
 a:visited,
 a:active{
     font-family: 'Blinker',sans-serif;
-    font-size: 15px;
     color: #0077c5;
     text-decoration: none;
 }
@@ -146,7 +147,8 @@ a:hover{
     text-align: center;
     font-style: italic;
     color: #757575;
-    font-size: 14px;
+    font-size: 13px;
+    margin: 20px;
 }
 
 .form-end-2 {
@@ -164,7 +166,7 @@ a:hover{
 .footer-2 {
     text-align: center;
     color: #757575;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 p {
@@ -194,4 +196,5 @@ input:focus{
 
 label{
     color: #4c4c4c;
+    margin-bottom: 5px;
 }
