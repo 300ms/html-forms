@@ -18,6 +18,7 @@ module.exports = {
     "block-closing-brace-newline-before": "always-multi-line",
     "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-space-after": "always-single-line",
+    //"block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "comment-empty-line-before": [ "always", {
@@ -78,6 +79,10 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
+    /*"rule-empty-line-before": [ "always-multi-line", {
+      except: ["first-nested"],
+      ignore: ["after-comment"],
+    } ],*/
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
@@ -94,6 +99,7 @@ module.exports = {
     "selector-type-case": "lower",
     "unit-case": "lower",
     "value-list-comma-newline-after": "always-multi-line",
+    //"value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
   },
