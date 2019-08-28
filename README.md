@@ -2,7 +2,7 @@
 
 ### Example web site for project:
 
-https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D34758894225416457621264800979794955614%257CMCAID%253D2EA991A8853104A6-6000010A6000240D%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1565903260%26ivid%3D024d5df0-3ed3-47c7-b0f7-a500be1696a9
+https://accounts.intuit.com/signup.html
 
 ### Full Task description of project:
 
