@@ -41,7 +41,7 @@ button {
     text-align: center;
     border: 1px #505050 solid;
     margin: 0;
-    color: #ffffff;
+    color: #fff;
 }
 
 .create {
@@ -138,11 +138,6 @@ button {
     display: block;
     margin: 0;
     width: 100%;
-}
-
-a:hover {
-    color: #0077c5;
-    text-decoration: underline;
 }
 
 .form-end {
