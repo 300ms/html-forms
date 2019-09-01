@@ -41,7 +41,7 @@ button {
     text-align: center;
     border: 1px #505050 solid;
     margin: 0;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .create {
@@ -140,16 +140,8 @@ button {
     width: 100%;
 }
 
-a:link,
-a:visited,
-a:active {
-    font-family: 'Blinker', sans-serif;
-    color: #0077C5;
-    text-decoration: none;
-}
-
 a:hover {
-    color: #0077C5;
+    color: #0077c5;
     text-decoration: underline;
 }
 
@@ -204,7 +196,7 @@ input {
     border-radius: 3px;
     line-height: 1.3em;
     font-size: 1.2em;
-    border: 1px solid #C1C5C8;
+    border: 1px solid #c1c5c8;
     width: 320px;
     height: 34px;
     padding: 0;
@@ -246,6 +238,19 @@ label {
 .footer-2 {
     margin-top: 0;
     margin-bottom: 1%;
+}
+
+a:link,
+a:visited,
+a:active {
+    font-family: 'Blinker', sans-serif;
+    color: #0077c5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077c5;
+    text-decoration: underline;
 }
 
 .footer-1 a:link,
