@@ -248,9 +248,9 @@ a:hover {
     text-decoration: underline;
 }
 
-.footer-1 a:link,
 a:visited,
-a:active{
+a:active,
+.footer-1 a:link{
     font-family: 'Blinker', sans-serif;
     color: #505050;
     text-decoration: none;
